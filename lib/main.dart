@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Sign Up Form',
       color: Color(0xFF531791),
       home: SignUpScreen(),
